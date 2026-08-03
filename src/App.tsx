@@ -165,14 +165,6 @@ export default function App() {
                 Eksplor Kasus Proyek
                 <ArrowRight className="w-4 h-4" />
               </a>
-
-              <button 
-                onClick={() => setIsChatOpen(true)}
-                className="bg-[#161B22] hover:bg-[#30363D]/50 text-[#E6EDF3] border border-[#30363D] font-sans font-medium text-xs px-5 py-2.5 rounded-md transition-all flex items-center gap-2 cursor-pointer"
-              >
-                <Bot className="w-4 h-4 text-[#6366F1]" />
-                <span>Tes AI Twin</span>
-              </button>
             </div>
 
             {/* Micro Social Bar */}
@@ -508,7 +500,7 @@ export default function App() {
               ) : (
                 <>
                   <Copy className="w-4 h-4 text-[#8B949E] shrink-0" />
-                  <span>Salin Email ({PORTFOLIO_OWNER.contacts.email})</span>
+                  <span>Salin Email Saya</span>
                 </>
               )}
             </button>
